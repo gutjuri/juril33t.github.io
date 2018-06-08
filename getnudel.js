@@ -8,7 +8,7 @@ function getRandomRedditPost(subreddit) {
       document.getElementById("displayText").innerHTML = text;
     }
   };
-  xhttp.open("GET", "http://www.reddit.com/r/" + subreddit + "/random/.json", true);
+  xhttp.open("GET", "https://www.reddit.com/r/" + subreddit + "/random/.json", true);
   xhttp.send();
 }
 
