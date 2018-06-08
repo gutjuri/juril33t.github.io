@@ -2,9 +2,8 @@ function getRandomRedditPost(subreddit) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyStage == 4 && this.status == 200) {
-      var jsonObj = this.responseText;
+      var jsonObj = JSON.parse(this.responseText);
       var text = jsonObj[0].data.children[0].data.selftext;
-      Console.log(text);
       document.getElementById("displayText").innerHTML = text;
     }
   };
