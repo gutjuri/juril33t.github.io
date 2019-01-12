@@ -20,8 +20,13 @@
           <a href="markdowntest.html">Test</a>Funktioniert das?.<br> Hm, wir werden sehen.
         </li>
       </ul>
+      {% for post in site.posts %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
       <h1 class="orange">Info</h1>
-      <p class="underp">Dies ist nur ein Test.</p>
+      <p class="underp">Dies ist nur ein Test.</p> 
     </div>
   </body>
 </html>
