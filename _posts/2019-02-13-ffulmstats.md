@@ -12,7 +12,7 @@ Schon seit längerer Zeit wollte ich zu Übungszwecken ein Projekt durchführen,
 
 Das Freifunknetz Ulm stellt eine öffentliche API bereit, über die man Daten über die verfügbaren Knotenpunkte abrufen kann. Da ich mir nicht sicher bin, ob es von den Verantwortlichen gewollt ist, dass die URL dieser API veröffentlicht wird, werde ich sie hier nicht nennen. Es hat mich jedenfalls einige Zeit gekostet, sie zu finden. 
 Diese API ermöglicht das Abrufen vieler Informationen über die einzelnen Nodes: Standort, Firmware Version, Anzahl der erbundenen Clients, etc. Im Rahmen dieses Projektes bin ich aber lediglich an der Anzahl der verbundenen Clients interessiert.
-Ein kurzes geschriebenes Ruby-Skript, das auf meinem Raspberry Pi stündlich ausgeführt wird, archiviert diese Daten und ermöglicht es mir jetzt, mehrere Monate später, diese zu analysieren. Bis zum heutigen Tag wurde die API über 5000 Mal bemüht, was eine Ausbeute von knapp 30 Megabyte Nutzdaten ergeben hat.
+Ein kurz geschriebenes Ruby-Skript, das auf meinem Raspberry Pi stündlich ausgeführt wird, archiviert diese Daten und ermöglicht es mir jetzt, mehrere Monate später, diese zu analysieren. Bis zum heutigen Tag wurde die API über 5000 Mal bemüht, was eine Ausbeute von knapp 30 Megabyte Nutzdaten ergeben hat.
 
 # Datenanalyse
 
