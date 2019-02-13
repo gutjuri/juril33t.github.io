@@ -6,7 +6,7 @@ tags: [freifunk, ulm]
 
 # Motivation
 
-Schon seit längerer Zeit wollte ich zu Übungszwecken ein Projekt durchführen, dass sich mit dem Themenfeldern "Big Data", "Data Science" und Datenvisualisierung befasst. Aufgrund von Ideenmangel begann ich dieses erst vor circa einem halben Jahr, im August 2018. Die Idee: Mittracken, wieviele Personen zu jeder Stunde des Tages über den Freifunk Knotenpunkt im Jugendhaus Blaubeuren online gehen. Grund für mein Interesse an diesen Daten ist, dass ich diesen Knotenpunkt selbst vor einigen Jahren installiert habe und es mich interessiert, ob dieser auch genutzt wird. 
+Schon seit längerer Zeit wollte ich zu Übungszwecken ein Projekt durchführen, dass sich mit dem Themenfeldern "Big Data", "Data Science" und Datenvisualisierung befasst. Aufgrund von Ideenmangel begann ich dieses erst vor circa einem halben Jahr, im Juni 2018. Die Idee: Mittracken, wieviele Personen zu jeder Stunde des Tages über den Freifunk Knotenpunkt im Jugendhaus Blaubeuren online gehen. Grund für mein Interesse an diesen Daten ist, dass ich diesen Knotenpunkt selbst vor einigen Jahren installiert habe und es mich interessiert, ob dieser auch genutzt wird. 
 
 # Datensammlung
 
